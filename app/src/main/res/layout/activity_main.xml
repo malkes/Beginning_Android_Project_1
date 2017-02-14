@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.malkes.beginningandroidproject1.MainActivity">
 
+    <ImageView
+        android:padding="@dimen/padding_logo"
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_size"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dominos_logo" />
 
-    
-</RelativeLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_info"
+            android:drawableStart="@drawable/ic_place_black_24dp"
+            android:gravity="center_vertical"
+            android:text="@string/address" />
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_lines"
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_info"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:gravity="center_vertical"
+            android:text="@string/phone" />
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_lines"
+            android:id="@+id/tv_hour_operation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_info"
+            android:drawableStart="@drawable/ic_timer_black_24dp"
+            android:gravity="center_vertical"
+            android:text="@string/hour" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/description" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:text="@string/website" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

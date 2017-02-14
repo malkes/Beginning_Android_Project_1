@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BeginningAndroidProject1</string>
+    <string name="description">Founded in 1960, Domino\'s is the recognized world leader in pizza delivery operating a
+                                network of company-owned and franchise-owned stores in the United States and
+                                international markets. Domino\'s is a company of exceptional people on a mission to be the
+                                best pizza delivery company in the world. To learn more about Domino\'s, please use the
+                                links below or select from the "About Domino\'s" drop-down menu near the top of the page.
+    </string>
+
+    <string name="phone">+55 (81) 3038–0055</string>
+    <string name="address">Avenida Caxangá, 3210, Recife - PE</string>
+    <string name="hour">17:00h - 00:00h</string>
+    <string name="website">https://www.dominos.com</string>
 </resources>
