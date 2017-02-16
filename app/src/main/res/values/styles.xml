@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CustomTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginTop">@dimen/margin_lines</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/padding_info</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
 </resources>

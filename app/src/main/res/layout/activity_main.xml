@@ -22,32 +22,21 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/CustomTextViewStyle"
             android:id="@+id/tv_address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawablePadding="@dimen/padding_info"
             android:drawableStart="@drawable/ic_place_black_24dp"
-            android:gravity="center_vertical"
             android:text="@string/address" />
 
         <TextView
-            android:layout_marginTop="@dimen/margin_lines"
+            style="@style/CustomTextViewStyle"
             android:id="@+id/tv_phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawablePadding="@dimen/padding_info"
             android:drawableStart="@drawable/ic_phone_black_24dp"
-            android:gravity="center_vertical"
             android:text="@string/phone" />
 
         <TextView
-            android:layout_marginTop="@dimen/margin_lines"
+            style="@style/CustomTextViewStyle"
             android:id="@+id/tv_hour_operation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawablePadding="@dimen/padding_info"
             android:drawableStart="@drawable/ic_timer_black_24dp"
-            android:gravity="center_vertical"
             android:text="@string/hour" />
 
         <TextView
@@ -56,7 +45,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/description" />
-
 
         <TextView
             android:layout_width="match_parent"
